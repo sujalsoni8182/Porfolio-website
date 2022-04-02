@@ -270,6 +270,7 @@ section .heading span{
 .service .heading::after{
     content: 'what i provide';
     background: #E69124;
+    font-size: 100%;
 }
 .service .service-content{
     display: flex;
@@ -608,7 +609,7 @@ footer span a:hover{
         font-size: 25px;
     }
     .about .max-width{
-        margin: 0 -30px;
+        margin: none;
     }
     .about .about-content .desp{
         padding: 30px;
